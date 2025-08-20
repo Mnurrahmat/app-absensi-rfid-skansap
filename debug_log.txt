@@ -1,0 +1,9 @@
+[2025-07-03 19:25:06] Script dimulai. Zona waktu: Asia/Makassar
+[2025-07-03 19:25:06] Data diterima. UID: 438FE6B6
+[2025-07-03 19:25:06] Gambar berhasil disimpan sebagai: 68666892749ce_picture.jpg
+[2025-07-03 19:25:06] Pegawai ditemukan. ID: 2, Jabatan ID: 2
+[2025-07-03 19:25:06] Mencari jadwal untuk hari: Kamis
+[2025-07-03 19:25:06] Jadwal ditemukan. ID: 9, Masuk: 07:30:00, Pulang: 16:00:00
+[2025-07-03 19:25:06] Data rekap tidak ditemukan. Memproses absen masuk.
+[2025-07-03 19:25:06] Keterangan masuk: Hadir Terlambat
+[2025-07-03 19:25:06] SUKSES: Berhasil insert absen masuk.
