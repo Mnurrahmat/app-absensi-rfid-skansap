@@ -70,7 +70,6 @@ void loop() {
     String command = Serial.readStringUntil('\n');
     command.trim();
     
-    // Memproses perintah dari Arduino
     if (command.startsWith("ABSEN:")) {
       String uid = command.substring(6);
       prosesAbsen(uid);
