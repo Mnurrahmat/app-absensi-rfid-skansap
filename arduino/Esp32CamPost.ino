@@ -4,7 +4,7 @@
 #include "soc/rtc_cntl_reg.h"
 #include <HTTPClient.h>
 
-//#define FLASH_GPIO_PIN 4
+#define FLASH_GPIO_PIN 4
 
 const char* ssid = "A3";
 const char* password = "Ladhago11";
