@@ -6,9 +6,9 @@
 
 #define FLASH_GPIO_PIN 4
 
-const char* ssid = "A3";
-const char* password = "Ladhago11";
-const char* host = "192.168.1.5";
+const char* ssid = "R";
+const char* password = "qwertyui";
+const char* host = "10.220.111.73";
 const int port = 80;
 const String pathAbsen = "/app-absensi-rfid-skansap/upload.php";
 const String pathDaftar = "/app-absensi-rfid-skansap/simpan_rfid_baru.php";
@@ -55,6 +55,11 @@ void setup() {
     Serial.println("FAIL: Camera Init");
     return;
   }
+
+  sensor_t * s = esp_camera_sensor_get();
+
+  s->set_vflip(s, 1);
+  s->set_hmirror(s, 1);
 
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
